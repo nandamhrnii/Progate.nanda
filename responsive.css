@@ -1,0 +1,22 @@
+/*untuk table*/
+/*tambahkan breakpoint max-width:100px*/
+@media (max-width:100px){
+    /*tambahkan css untuk lesson*/
+    .lesson{
+        width:50%;
+        margin bottom:50px;
+    }
+}
+ /*Untuk Smartphone*/
+ @media (max-width:670px) {
+    .lesson {
+        width: 100px;
+    }
+    footer {
+        text-align: center;
+    }
+    /*Gantikan Width btn ke 100%*/
+    .btn {
+        width: 100%;
+    }
+ }
